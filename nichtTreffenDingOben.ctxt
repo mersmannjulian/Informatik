@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=nichtTreffenDingOben
+comment1.params=pX
+comment1.target=nichtTreffenDingOben(double)
+comment2.params=
+comment2.target=void\ bewege()
+comment3.params=pX
+comment3.target=void\ zuruecksetzen(double)
+comment4.params=
+comment4.target=sas.Picture\ getShape()
+comment5.params=
+comment5.target=void\ drehen()
+comment6.params=
+comment6.target=double\ getShapeX()
+numComments=7

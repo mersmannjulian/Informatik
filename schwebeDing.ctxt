@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=schwebeDing
+comment1.params=pK1
+comment1.target=schwebeDing(nichtTreffenDingOben[])
+comment2.params=
+comment2.target=void\ bewegeOben()
+comment3.params=
+comment3.target=void\ bewegeUnten()
+comment4.params=
+comment4.target=boolean\ pruefeKollision()
+numComments=5

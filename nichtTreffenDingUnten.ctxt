@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=nichtTreffenDingUnten
+comment1.params=pX\ pY
+comment1.target=nichtTreffenDingUnten(double,\ double)
+comment2.params=
+comment2.target=void\ drehen()
+numComments=3
