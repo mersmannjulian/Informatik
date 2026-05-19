@@ -10,34 +10,29 @@ public class nichtTreffenDingOben
     // Attribute
 
     // Konstruktor
-    public nichtTreffenDingOben(double pX)
+    public nichtTreffenDingOben(double pX, double lueckenStart)
     {
-        double x = Math.random() * (Spiel.BILDBREITE-40);
-        double y = - Math.random() * Spiel.BILDHOEHE; 
-        Korralle = new Picture(1800 + (pX +100) ,0,"Koralle1.png");
-        //Korralle.turn(180);
+        Korralle = new Picture(pX,0,"Koralle1.png");
+        setzePosition(pX, lueckenStart);
     }
     public void bewege() {
         Korralle.move(-2,0);
-        if (Korralle.getShapeY() > Spiel.BILDHOEHE+60) {
-            //zuruecksetzen();
-        }
     }
     
-    public void zuruecksetzen(double pX) { 
-        Korralle.moveTo(1800 + (pX +100),0);
+    public void setzePosition(double pX, double lueckenStart) { 
+        Korralle.moveTo(pX, lueckenStart - Korralle.getShapeHeight());
     }
     
     public Picture getShape() {
         return Korralle;
     }
-    private void drehen(){
-        //K1.turn(180);
-    
-    }
     
     public double getShapeX(){
-    return Korralle.getShapeX();
+        return Korralle.getShapeX();
+    }
+
+    public double getBreite(){
+        return Korralle.getShapeWidth();
     }
     // Dienste
 
